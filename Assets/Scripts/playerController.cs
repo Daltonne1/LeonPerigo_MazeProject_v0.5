@@ -58,6 +58,7 @@ public class playerController : MonoBehaviour
         {
             timer.StopTimer();
             rb.constraints = RigidbodyConstraints.FreezePosition;
+            Time.timeScale = 0;
         }
     }
 
